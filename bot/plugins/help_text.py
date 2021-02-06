@@ -38,7 +38,7 @@ async def start_command_fn(_, message: Message):
 
 @Bot.on_message(
 
-    filters.command(/help) &
+    filters.command(help) &
 
     filters.private
 
