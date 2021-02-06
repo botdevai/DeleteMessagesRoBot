@@ -85,6 +85,7 @@ START_MESSAGE = get_config("START_MESSAGE", (
 ))
 START_COMMAND = get_config("START_COMMAND", "start")
 DEL_ALL_COMMAND = get_config("DEL_ALL_COMMAND", "delall")
+HELP = get_config("HELP", "help")
 BEGINNING_DEL_ALL_MESSAGE = get_config("BEGINNING_DEL_ALL_MESSAGE", (
     "trying to delete all messages"
 ))
