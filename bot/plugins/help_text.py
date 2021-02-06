@@ -24,7 +24,7 @@ from bot.bot import Bot
 
 
 @Bot.on_message(
-    filters.command(help) &
+    filters.command(HELP) &
     filters.private
 )
 async def start_command_fn(_, message: Message):
