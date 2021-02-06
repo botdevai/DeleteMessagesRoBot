@@ -36,24 +36,3 @@ async def start_command_fn(_, message: Message):
     )
 
 
-@Bot.on_message(
-
-    filters.command(help) &
-
-    filters.private
-
-)
-
-async def start_command_fn(_, message: Message):
-
-    await message.reply_text(
-
-        text=START_MESSAGE,
-
-        quote=True,
-
-        disable_web_page_preview=True,
-
-        disable_notification=True
-
-    )
